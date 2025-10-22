@@ -90,6 +90,7 @@ function createProduct(name){
     return product
 }
 
+// O new cria um novo objeto utilizando a função construtora
 const product1 = createProduct('Camiseta')
 console.log(product1.name)
 product1.details()
